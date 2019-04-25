@@ -1,0 +1,50 @@
+<tabBar key="{{key}}">
+</tabBar>
+<navigationBar id="navigationBar" color="{{navTextColor}}" title="{{title}}" back="{{false}}" background="{{barBg}}"></navigationBar>
+
+
+<view class='all' style="padding-top: {{top}}px;">
+  <scroll-view scroll-y="true" style='hight: 100%;' class='tt'>
+    <view class='text-style' wx:key="lists" wx:for="{{lists}}" bindtap='jumpIndex' data-menuindex='{{index}}'>
+      <view class="{{indexId==index?'selected':''}}">
+        <text class="{{indexId==index?'active1':''}}">{{item}}</text>
+        <text class="{{indexId==index?'active':''}}"></text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <swiper class="rr" bindchange="change" current="{{indexId}}" duration='0'>
+  
+    <swiper-item wx:for="{{lists}}" wx:for-item="item" wx:key="index">
+    <view>{{item}}6666{{indexSize}}</view>
+      <scroll-view scroll-y="true" style='hight: 100rem;' class='rr'>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+        <view>{{item}}</view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/divsion/main",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/user/main",
+    "pages/collection/main",
+    "pages/publishing/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "iconPath": "/images/home-outline.png",
+      "selectedIconPath": "/images/home.png",
+      "text": "主页"
+      },
+      {
+      "pagePath": "pages/divsion/main",
+      "iconPath": "/images/all.png",
+      "selectedIconPath": "/images/all-fill.png",
+      "text": "分类"
+      },
+      {
+      "pagePath": "pages/divsion/main",
+        "iconPath": "/images/all-fill.png",
+        "selectedIconPath": "/images/all-fill.png",
+      "text": "接口"
+      },
+      {
+      "pagePath": "pages/collection/main",
+      "iconPath": "/images/collection.png",
+      "selectedIconPath": "/images/collection-fill.png",
+      "text": "收藏"
+      },
+      {
+      "pagePath": "pages/user/main",
+      "iconPath": "/images/account.png",
+      "selectedIconPath": "/images/user-fill.png",
+      "text": "我"
+      }
+    ]
+  },
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b8132a",
+    "navigationBarTitleText": "北美看看",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

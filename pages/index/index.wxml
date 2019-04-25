@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<tabBar></tabBar>
+<view>
+<navigationBar id="navigationBar" color="{{navTextColor}}" title="{{title}}" back="{{false}}" background="{{barBg}}"></navigationBar>
+<view class="container">
+  <view class="userinfo">bb
+  </view>
+</view>
+</view>

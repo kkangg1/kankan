@@ -1,0 +1,62 @@
+.under_line {
+  width: 100%;
+  border-top: 1rpx solid #efefef;
+}
+
+.scrollY {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.text-style {
+  width: 200rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-family: PingFangSC-Semibold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.active1 {
+  color: #b8132a;
+}
+
+.selected {
+  background-color: #fff;
+}
+
+.active {
+  display: block;
+  width: 50rpx;
+  height: 6rpx;
+  background: #b8132a;
+  position: relative;
+  left: 75rpx;
+  bottom: 30rpx;
+}
+
+.all {
+  position: absolute;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+  bottom: 100rpx;
+  top: 0;
+  width: 100%;
+}
+
+.tt {
+  width: 200rpx;
+  flex-direction: column;
+  border-right: 1rpx solid #efefef;
+  background-color: #efefef;
+}
+
+.rr {
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}

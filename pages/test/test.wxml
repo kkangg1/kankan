@@ -1,0 +1,2 @@
+<navigationBar id="navigationBar" title="{{title}}" back="{{true}}" fixed="{{fixed}}"></navigationBar>
+<tabBar></tabBar>

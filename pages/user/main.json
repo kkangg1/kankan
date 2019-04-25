@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navigationBar": "/components/navigationBar/index",
+    "tabBar": "/components/tabBar/tabBar"
+  }
+}

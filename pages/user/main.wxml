@@ -1,0 +1,3 @@
+<tabBar key="{{key}}"></tabBar>
+<navigationBar id="navigationBar" color="{{navTextColor}}" title="{{title}}" back="{{false}}" background="{{barBg}}"></navigationBar>
+<view><text>我</text></view>

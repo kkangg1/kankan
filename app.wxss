@@ -1,0 +1,17 @@
+@import "/components/navigationBar/index.wxss";
+@import "/components/tabBar/tabBar.wxss";
+
+/**app.wxss**/
+.container {
+  height:200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  
+} 
+.tabBar{
+  padding-bottom: env(safe-area-inset-bottom);
+}

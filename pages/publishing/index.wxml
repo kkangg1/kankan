@@ -1,0 +1,7 @@
+<view>
+  <navigationBar id="navigationBar" title="{{title}}" back="{{true}}" fixed="{{fixed}}"></navigationBar>
+
+  <view class="container" bindtouchstart='touchstart' bindtouchmove='touchmove'>
+  <view style="position:absolute;left:0;">页面容器 </view>
+  </view>
+</view>
