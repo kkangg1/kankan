@@ -6,10 +6,10 @@
     <cover-view style="color: {{key == 0 ? selectedColor : color}}">{{list[0].text}}</cover-view>
   </cover-view>
   <cover-view class="tab-bar-item" data-path="{{list[1].pagePath}}" data-index="1" bindtap="switchTab">
-    <cover-image src="{{key == 1 ? list[1].selectedIconPath : list[1].iconPath}}"></cover-image>
+    <cover-image style= "width: 50rpx; height: 50rpx; padding-bottom: 2rpx" src="{{key == 1 ? list[1].selectedIconPath : list[1].iconPath}}"></cover-image>
     <cover-view style="color: {{key == 1 ? selectedColor : color}}">{{list[1].text}}</cover-view>
   </cover-view><cover-view class="tab-bar-item" data-path="{{list[2].pagePath}}" data-index="2" bindtap="showModal">
-    <cover-image src="{{key == 2 ? list[2].selectedIconPath : list[2].iconPath}}"></cover-image>
+    <cover-image style="padding-bottom: 5rpx" src="{{key == 2 ? list[2].selectedIconPath : list[2].iconPath}}"></cover-image>
     <cover-view style="color: {{key == 2 ? selectedColor : color}}">{{list[2].text}}</cover-view>
   </cover-view><cover-view class="tab-bar-item" data-path="{{list[3].pagePath}}" data-index="3" bindtap="switchTab">
     <cover-image src="{{key == 3 ? list[3].selectedIconPath : list[3].iconPath}}"></cover-image>
@@ -22,13 +22,14 @@
 
 
 <!--底部弹出框-->
- <view animation="{{animationData}}" class="container-column buydes-dialog-container" wx:if="{{showModalStatus}}">
- <view class="buydes-dialog-container-top" bindtap="hideModal"></view>
- <view class="a1">
- <view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='goToP1' >navigator</button></view>
- <view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >取消</button></view>
- <view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >取消</button></view>
- <view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >取消</button></view>
-  <view class="fspase" ><button class='btn' bindtap='hideModal' >取消</button></view>
- </view>
- </view>
+ <cover-view animation="{{animationData}}" class="container-column buydes-dialog-container" wx:if="{{showModalStatus}}">
+ <cover-view class="buydes-dialog-container-top" bindtap="hideModal"></cover-view>
+ <cover-view class="a1">
+ <cover-view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='goToP1' >家居·家具</button></cover-view>
+ <cover-view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >数码·电器</button></cover-view>
+ <cover-view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >车·房</button></cover-view>
+ <cover-view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >服装·日用</button></cover-view>
+ <cover-view class='spase'><button class='btn' style='padding-top: 15rpx;' bindtap='hideModal' >其他</button></cover-view>
+  <cover-view class="fspase" ><button class='btn' bindtap='hideModal' >取消</button></cover-view>
+ </cover-view>
+ </cover-view>

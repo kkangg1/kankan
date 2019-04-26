@@ -42,6 +42,7 @@
   width: 100rem;
   height: 100rem;
   align-content:flex-end;
+  z-index:99;
 }
 
 .buydes-dialog-container {
@@ -68,6 +69,7 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  width: 100px;
   border-bottom: 1rpx solid #eee;
 }
 
@@ -85,8 +87,11 @@
 }
 
 .a1 {
-  padding-top: 515rpx;
+  position: absolute;
+  width: 80%;
+  bottom: 10%;
+  left:10%;
   text-align: center;
   margin: auto;
-  align-content:flex-end;
+  z-index:1999;
 }

@@ -26,7 +26,8 @@
 }
 
 .selected {
-  background-color: #fff;
+  background-color: #fdfdfd;
+  border-right: 1rpx solid #fdfdfd;
 }
 
 .active {
@@ -56,7 +57,17 @@
 }
 
 .rr {
-  flex-direction: column;
   flex: 1;
   height: 100%;
+}
+.cate{
+  background: #fdfdfd;
+  float: left;
+  width: 50%;
+  height: 15%;
+  line-height: 140rpx;
+  text-align: center;
+  font-size: 16px;
+  font-family: PingFangSC-Semibold;
+  color: rgba(51, 51, 51, 1);
 }

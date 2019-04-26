@@ -37,9 +37,9 @@ Component({
       text: "分类"
     }, {
       pagePath: "/pages/publishing/index",
-        iconPath: "/images/all-fill.png",
-        selectedIconPath: "/images/all-fill.png",
-      text: "接口"
+        iconPath: "/images/fabu.png",
+        selectedIconPath: "/images/fabu.png",
+      text: "发布"
     }, {
       pagePath: "/pages/collection/main",
       iconPath: "/images/collection.png",
