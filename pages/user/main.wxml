@@ -1,3 +1,14 @@
 <tabBar key="{{key}}"></tabBar>
 <navigationBar id="navigationBar" color="{{navTextColor}}" title="{{title}}" back="{{false}}" background="{{barBg}}"></navigationBar>
-<view><text>我</text></view>
+
+<view class='containerIn'>
+<button 
+ wx:if="{{!hasUserInfo && canIUse}}" class='circle' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 请授权 </button>
+ <block wx:else>
+ <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+ </block>
+ <view class='.userinfo-nickname '>{{userInfo.nickName}}</view>
+ <view class='mid'><view class="mid-ele">已发布</view><view  class="mid-ele" >已收藏</view></view>
+<image class='bgpic' src="/images/aa.png"></image>
+ </view>
+ 

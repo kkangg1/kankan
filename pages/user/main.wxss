@@ -1,0 +1,56 @@
+.circle{
+  position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    left: 3vw;
+    z-index: 1;
+    font-size: 0.8rem;
+    margin: 5vw;
+}
+.containerIn{
+  width: 100%;
+  height: 26vw;
+}
+.userinfo-avatar {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  z-index: 2;
+  margin: 5vw;
+}
+.userinfo-nickname {
+  position: absolute;
+  padding-top: 12vw;
+  left: 30vw;
+  color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  z-index: 2;
+}
+.bgpic{
+  width: 100%;
+  height: 45vw;
+  z-index: -99;
+}
+.mid{
+  position: absolute;
+  overflow: auto;
+  margin-top: 30vw; 
+  background: #ffffff;
+  width: 80%;
+  height: 30vw;
+  margin-left: 10vw;
+  z-index: 0;
+  border:2px solid #efefef;
+  border-radius:25px;
+  -moz-border-radius:25px;
+  flex: 1;
+  display: flex;
+}
+.mid-ele{
+  width: 40%;
+  margin: auto;
+  float: left;
+  text-align: center;
+}

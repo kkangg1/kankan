@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/divsion/main",
+    "pages/user/main",
     "pages/index/index",
     "pages/test/test",
-    "pages/user/main",
+    "pages/divsion/main",
     "pages/collection/main",
     "pages/publishing/index",
     "pages/logs/logs"
